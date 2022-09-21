@@ -99,13 +99,13 @@ function result() {
 
     // 점수별 결과 텍스트
     if (per < 60) {
-        txt += '<h2>더 분발하세요</h2>';
+        txt += '<h2>노력하세요</h2>';
         quizDiv.innerHTML = txt;
     } else if (per >= 60 && per < 80) {
-        txt += '<h2>무난한 점수네요</h2>'
+        txt += '<h2>평범하네요</h2>'
         quizDiv.innerHTML = txt;
     } else if (per >= 80) {
-        txt += '<h2>훌륭합니다</h2>'
+        txt += '<h2>대단해요</h2>'
         quizDiv.innerHTML = txt;
     }
 }
